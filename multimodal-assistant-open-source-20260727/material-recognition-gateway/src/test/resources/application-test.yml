@@ -1,0 +1,9 @@
+multimodal:
+  provider: openai-compatible
+  base-url: https://example.invalid/compatible-mode/v1
+  api-key: test-key
+  model: test-vision-model
+  timeout-seconds: 2
+  max-pdf-pages: 3
+  allowed-origins:
+    - http://localhost:5173

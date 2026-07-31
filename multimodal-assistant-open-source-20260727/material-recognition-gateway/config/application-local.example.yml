@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+multimodal:
+  provider: openai-compatible
+  base-url: https://YOUR_WORKSPACE_ID.cn-beijing.maas.aliyuncs.com/compatible-mode/v1
+  api-key: YOUR_API_KEY
+  model: qwen3.6-35b-a3b
+  timeout-seconds: 60
+  max-pdf-pages: 3
+  allowed-origins:
+    - http://localhost:5173
+    - http://127.0.0.1:5173
+    - http://localhost:4173
+    - http://127.0.0.1:4173
